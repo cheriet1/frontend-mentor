@@ -1,0 +1,210 @@
+body {
+    background-image: url("assets/home/background-home-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.trouv
+{
+    display: none;
+}
+.fixed
+{
+    display: flex;
+     position:fixed;
+    top: -10px;
+}
+.icon
+{
+    width: 35px;
+    height: 35px;
+    margin-top: 50px;
+    margin-left:  40px;
+   
+}
+.bar
+{
+    margin-top: 30px;
+    width: 80vw;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    backdrop-filter: blur(20px);
+    background-color: rgba(255,255,255,0.05);
+    
+    position: relative;
+    left: 400PX;
+
+}
+.cadr
+{
+    margin: 20px;
+}
+.cadr:hover
+{
+    border-bottom: 2px solid  white;
+}
+.line
+{
+   margin-top:56px ;
+   width: 400px;
+   border-top: 2px solid rgb(158, 155, 155);
+   position: relative;
+   left: 100px;
+   
+}
+#home
+{
+    margin: 100px;
+   
+    padding: 100px 20px;
+    
+    
+}
+.jml
+{
+    width: 400px;
+    font-size: 15px;
+    margin-top: 40px;
+    color: rgb(184, 181, 181);
+    display: block;
+}
+
+.cercle
+{
+    width: 150PX;
+    height: 150PX;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: -80%;  
+}
+
+
+#destination
+{
+    margin:150px 100px;
+    
+}
+#mars
+{
+    width: 400px;
+    box-sizing: border-box;
+}
+.barp
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 200px;
+    height: 30px; 
+    position: sticky;
+    top: 120px;  
+}
+.cadrp
+{
+   display: block;
+    color: white;
+    margin: 20px;
+    position: relative;
+    left: 200px;
+}
+.cadrp:hover
+{
+    border-bottom: 2px solid  white;
+}
+.fenetre
+{
+    margin: 50px 140px;
+}
+.fenetre>.line
+{
+    left: 0px;
+    margin: 30px 0;
+}
+#moon
+{
+    width: 400px;
+    box-sizing: border-box;
+}
+#EUROPA
+{
+    width: 400px;
+    box-sizing: border-box;
+}
+#TITAN
+{
+    width: 400px;
+    box-sizing: border-box;
+}
+.trouv2
+{
+    display: none;
+}
+.cr 
+{
+    margin-left:100px;
+    width: 400px;
+    color: white;
+    box-sizing: border-box;
+}
+.point
+{
+    background-color: rgb(113, 112, 112);
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    margin: 5px;
+    display: inline-block;
+    position: relative;
+    bottom: 200px;
+    left: 100px;
+}
+.point:hover
+{
+    background-color: white;
+    width: 12px;
+    height: 12px;
+}
+.number
+{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    margin-left:  100px;
+    
+}
+.num
+{
+    background-color: rgba(255,255,255,0);
+    color: white;
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(87, 87, 87);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.num:hover
+{
+    background-color: white;
+    color: black;
+}
+.trouv3
+{
+    display: none;
+}
+.trouv4
+{
+    display: none;
+}

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="space.css">
+    <title>NASA</title>
+</head>
+<body>
+    <div class="fixed">
+        <div class="icon">
+             <img src="assets/shared/logo.svg" alt="" style="width: 35px;">
+        </div>
+        
+        <div class="bar">
+            <div class="cadr" onclick="home()" ><h4 style="color: aliceblue; font-size: 1em;">00 HOME</h4></div>
+            <div class="cadr" onclick="destination()"><h4 style="color: aliceblue; font-size: 1em;">01 DESTINATION</h4></div>
+            <div class="cadr" onclick="crew()"><h4 style="color: aliceblue; font-size: 1em;">02 CREW</h4></div>
+            <div class="cadr" onclick="tecnology()"><h4 style="color: aliceblue; font-size: 1em;">03 TECHNOLOGY</h4></div>
+         </div>
+    </div>
+        <div class="line"></div>  
+   <!--HOMME*-->
+     <div  id="home" class="trouv" >
+        <p style="font-size: 30px; color:rgb(230, 228, 228)">so, u want to travel to</p>
+        <p style="font-size: 120px; margin: 0; color: white;">SPACE</p>
+        <div class="jml">
+            <p>let,s face it; if u want to got to space, you might as well</p>
+            <p>genuinely go to outer space and not hover kinf of on the</p>
+            <p>adge of it. well sit back, and relax because we'll give you</p>
+            <p>a truly out of this world experience!</p>
+        </div> 
+         <div class="cercle">
+           <h2 style="color: black;">EXPLORE</h2>
+         </div>
+     </div>
+    <!--HOMME*-->
+
+ <!--destination*-->
+    
+    
+    <div  id="destination" class="trouv">
+        <p style="font-size: 30px; color:rgb(230, 228, 228) ; "> <em style="color: rgb(150, 146, 146);">01 </em>PICK YOUR DESTINATION</p> 
+        <div class="barp"> 
+                <div class="cadrp" onclick="moon()"><H4>MOON</H4></div>
+                <div class="cadrp" onclick="mars()"><H4>MARS</H4></div>
+                <div class="cadrp" onclick="EUROPA()"><H4>EUROPA</H4></div>
+                <div class="cadrp" onclick="TITAN()"><H4>TITAN</H4></div>
+             </div>
+      <!--mars*-->
+        <div class=" trouv2" id="mars" >
+             <img src="assets\destination\image-mars.png" style="margin: 50px;">
+             <DIV class="fenetre">
+                <p style="font-size: 120px; margin: 0; color: white;">MARS</p>
+                <p style="color: white;">Don't forget to pack your hiking boots. you'll need them to tackle Olympus Mons, the tallest planetary mounain in our solar systemits two and a half times the size of Everst!</p>
+                <div class="line"></div>
+                <pre style="color: white; font-size: 10PX;">AVG. DISTANCE                  EST. TRAVEL TIME</pre>
+                <pre style="color: white; font-size: 21px; margin: 0;">225 MIL. KM     9 MONTHS</pre>
+             </DIV>  
+        </div>
+      <!--mars*-->
+      <!--moon*-->
+       <div class=" trouv2" id="moon" >
+        <img src="assets\destination\image-moon.png" style="margin: 50px;">
+        <DIV class="fenetre">
+           <p style="font-size: 120px; margin: 0; color: white;">MOON</p>
+           <p style="color: white;direction: rtl;"> كنا عند النبي صلى الله عليه وسلم فنظر إلى القمر ليلة ، يعني: البدر ، فقال: "إنكم سترون ربكم كما ترون هذا القمر ، لا تضامون في رؤيته ، فإن استطعتم أن لا تغلبوا على صلاة قبل طلوع الشمس ، وقبل غروبها ، فافعلوا.."</p>
+           <div class="line"></div>
+           <pre style="color: white; font-size: 10PX;">AVG. DISTANCE                  EST. TRAVEL TIME</pre>
+           <pre style="color: white; font-size: 21px; margin: 0;">225 MIL. KM     9 MONTHS</pre>
+        </DIV>  
+       </div>
+      <!--moon*-->
+       <!--EUROPA*-->
+       <div class=" trouv2"  id="EUROPA">
+        <img src="assets\destination\image-europa.png" style="margin: 50px;">
+        <DIV class="fenetre">
+           <p style="font-size: 120px; margin: 0; color: white;">EUROPA</p>
+           <p style="color: white;direction: rtl;">الوا: الله ورسوله أعلم، قال: أصبح من عبادي مؤمن بي وكافر، فأمَّا من قال: مُطِرنا بفضل الله ورحمته، فذلك مؤمن بي وكافر بالكوكب، وأما من قال: مُطِرنا بنوء كذا وكذا فذلك كافر بي ومؤمن بالكوكب"</p>
+           <div class="line"></div>
+           <pre style="color: white; font-size: 10PX;">AVG. DISTANCE                  EST. TRAVEL TIME</pre>
+           <pre style="color: white; font-size: 21px; margin: 0;">225 MIL. KM     9 MONTHS</pre>
+        </DIV>  
+       </div>
+      <!--TITAN*-->
+      <div class=" trouv2" id="TITAN" >
+        <img src="assets\destination\image-titan.png" style="margin: 50px;">
+        <DIV class="fenetre">
+           <p style="font-size: 120px; margin: 0; color: white;">TITAN</p>
+           <P style="color: white;direction: rtl;"> "ﺃﻳﻬﺎ اﻟﻨﺎﺱ! ﺃﻻ ﺃﺧﺒﺮﻛﻢ ﺑﺄﺷﺮاﻁ اﻟﺴﺎﻋﺔ؟ " ﻓﻘﺎﻡ ﺇﻟﻴﻪ ﺳﻠﻤﺎﻥ ﺭﺿﻲ اﻟﻠﻪ ﻋﻨﻪ، ﻓﻘﺎﻝ: ﺃﺧﺒﺮﻧﺎ ﻓﺪاﻙ ﺃﺑﻲ ﻭﺃﻣﻲ ﻳﺎ ﺭﺳﻮﻝ اﻟﻠﻪ! ﻗﺎﻝ: "ﺇﻥ ﻣﻦ ﺃﺷﺮاﻁ اﻟﺴﺎﻋﺔ: ﺇﺿﺎﻋﺔ اﻟﺼﻼﺓ، ﻭاﻟﻤﻴﻞ ﻣﻊ اﻟﻬﻮﻯ، ﻭﺗﻌﻈﻴﻢ ﺭﺏ اﻟﻤﺎﻝ" ﻓﻘﺎﻝ ﺳﻠﻤﺎﻥ: ﻭﻳﻜﻮﻥ ﻫﺬا ﻳﺎ ﺭﺳﻮﻝ اﻟﻠﻪ؟ ﻗﺎﻝ: "ﻧﻌﻢ؛ ﻭاﻟﺬﻱ ﻧﻔﺲ ﻣﺤﻤﺪ ﺑﻴﺪﻩ؛ ﻓﻌﻨﺪ ﺫﻟﻚ ﻳﺎ ﺳﻠﻤﺎﻥ ﺗﻜﻮﻥ اﻟﺰﻛﺎﺓ ﻣﻐﺮﻣﺎ، ﻭاﻟﻔﻲء ﻣﻐﻨﻤﺎ، ﻭﻳﺼﺪﻕ اﻟﻜﺎﺫﺏ، ﻭﻳﻜﺬﺏ اﻟﺼﺎﺩﻕ، ﻭﻳﺆﺗﻤﻦ اﻟﺨﺎﺋﻦ، ﻭﻳﺨﻮﻥ اﻷﻣﻴﻦ، ﻭﻳﺘﻜﻠﻢ اﻟﺮﻭﻳﺒﻀﺔ"</P>
+           <div class="line"></div>
+           <pre style="color: white; font-size: 10PX;">AVG. DISTANCE                  EST. TRAVEL TIME</pre>
+           <pre style="color: white; font-size: 21px; margin: 0;">225 MIL. KM     9 MONTHS</pre>
+        </DIV>  
+       </div>
+      <!--TITAN*-->
+    </div>
+ <!--destination*-->  
+ <!--crew*-->  
+     <div class="trouv" id="crew" >
+      <p style="font-size: 20px; color:rgb(230, 228, 228) ; margin:100px;"><em style="color: rgb(150, 146, 146);">02 </em>MEET YOUR CREW</p>
+      <div class="trouv3"id="p1"style="display: flex;">
+         <div class="cr">
+             <p>FLIGHT ENGINEER</p>
+             <h1>ANOUSHEH ANSARI</h1>
+             <h5></h5>
+         </div>
+         <img src="assets/crew/image-anousheh-ansari.png"  style="width: 400px;height: 450px; position: relative;bottom: 100px; margin: 0 50px; z-index: -1;">
+      </div>
+      <div class="trouv3"id="p2">
+         <div class="cr">
+             <p>FLIGHT ENGINEER</p>
+             <h1>DOUGLAS HURLEY</h1>
+             <h5></h5>
+         </div>
+         <img src="assets/crew/image-douglas-hurley.png"  style="width: 400px;height: 450px; position: relative;bottom: 100px; margin: 0 50px; z-index: -1;">
+      </div>
+      <div class="trouv3"id="p3">
+         <div class="cr">
+             <p>FLIGHT ENGINEER</p>
+             <h1>SHUTTLEWORTH</h1>
+             <h5></h5>
+         </div>
+         <img src="assets/crew/image-mark-shuttleworth.png"  style="width: 400px;height: 450px; position: relative;bottom: 100px; margin: 0 50px; z-index: -1;">
+      </div>
+      <div class="trouv3"id="p4">
+         <div class="cr">
+             <p>FLIGHT ENGINEER</p>
+             <h1>VICTOR GLOVER</h1>
+             <h5></h5>
+         </div>
+         <img src="assets/crew/image-victor-glover.png"  style="width: 400px;height: 450px; position: relative;bottom: 100px; margin: 0 50px; z-index: -1;">
+      </div>
+      
+      <div class="point"  onclick="point1()"></div>
+      <div class="point" id="p2" onclick="point2()"></div>
+      <div class="point" id="p3" onclick="point3()"> </div>
+      <div class="point" id="p4" onclick="point4()"></div>
+
+       
+     </div>
+
+ <!--crew*-->  
+ <!--tecnology*-->
+      <div class="trouv" id="tecnology">
+         <p style="font-size: 20px; color:rgb(230, 228, 228) ; margin:100px;"><em style="color: rgb(150, 146, 146);">03 </em>SPACE LAUNCHE 101</p>
+         <div style="display: flex;">
+              <div class="number">
+            <div class="num" onclick="num1()"><h2>1</h2></div>
+            <div class="num" onclick="num2()"><h2>2</h2></div>
+            <div class="num" onclick="num3()"><h2>3</h2></div> 
+         </div>
+            <div class="trouv4" id="n1">
+               <div style="padding: 10px;width: 600px;">
+                  <p style=" color: gray;">the terminology</p>
+                  <p style="font-size: 50px; color:rgb(230, 228, 228) ; margin: 0;">LAUNCH VEHICLE</p>
+               </div>
+               <img src="assets/technology/image-launch-vehicle-portrait.jpg" style="height: 400px; width: 600px; position: relative; bottom: 50px;">
+            </div>
+            <div class="trouv4" id="n2">
+               <div style="padding: 10px;width: 600px;">
+                  <p style=" color: gray;">the terminology</p>
+                  <p style="font-size: 50px; color:rgb(230, 228, 228) ; margin: 0;">SPACE CAPSULE</p>
+               </div>
+               <img src="assets/technology/image-space-capsule-portrait.jpg" style="height: 400px; width: 600px; position: relative; bottom: 50px;">
+            </div>
+            <div class="trouv4" id="n3">
+               <div style="padding: 10px;width: 600px;">
+                  <p style=" color: gray;">the terminology</p>
+                  <p style="font-size: 50px; color:rgb(230, 228, 228) ; margin: 0;">SPACEPORT</p>
+               </div>
+               <img src="assets/technology/image-spaceport-portrait.jpg" style="height: 400px; width: 600px; position: relative; bottom: 50px;">
+            </div>
+      </div> 
+ <!--tecnology*--> 
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="space.js"></script>
+      
+</body>
+</html>
